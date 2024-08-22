@@ -1,0 +1,497 @@
+{"examination_id":32,"examination_type":"A","name":"assessment 2","year_group_id":"1","subject_id":"1","lesson_id":"2","created_by":4,"creator_type":"TU-T","start_datetime":null,"end_datetime":null,"total_time":"1:23:0","status":"In Design","created_at":"2024-05-09T07:31:17.000000Z","updated_at":"2024-05-10T09:06:42.000000Z"}*Modify ExamID* 
+[{"examination_question_id":"29","question_id":"53","question":"<p>S1<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"11.00","time_inseconds":"11","subquestions":[]},{"examination_question_id":"30","question_id":"54","question":"<p>L1<\/p>","question_type":"linked","level":null,"require_file_upload":"0","point":null,"time_inseconds":0,"subquestions":[{"examination_question_id":"31","question_id":"55","question":"<p>L1 S1<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"16.00","time_inseconds":"16"},{"examination_question_id":"51","question_id":"75","question":"<p>L1 S2<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"15.00","time_inseconds":"15"},{"examination_question_id":null,"question_id":null,"question":"<p>L1 S3<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"14","time_inseconds":"14"}]},{"examination_question_id":"32","question_id":"56","question":"<p>S2<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"13.00","time_inseconds":"13","subquestions":[]},{"examination_question_id":"50","question_id":"74","question":"<p>S3<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"12.00","time_inseconds":"12","subquestions":[]}]*Question Array* 
+*Inside question loop* 
+*Question ID *53 
+*Question ID not null::*53 
+*Error* 
+{}Undefined variable: array{"examination_id":32,"examination_type":"A","name":"assessment 2","year_group_id":"1","subject_id":"1","lesson_id":"2","created_by":4,"creator_type":"TU-T","start_datetime":null,"end_datetime":null,"total_time":"1:23:0","status":"In Design","created_at":"2024-05-09T07:31:17.000000Z","updated_at":"2024-05-10T09:06:42.000000Z"}*Modify ExamID* 
+[{"examination_question_id":"29","question_id":"53","question":"<p>S1<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"11.00","time_inseconds":"11","subquestions":[]},{"examination_question_id":"30","question_id":"54","question":"<p>L1<\/p>","question_type":"linked","level":null,"require_file_upload":"0","point":null,"time_inseconds":0,"subquestions":[{"examination_question_id":"31","question_id":"55","question":"<p>L1 S1<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"16.00","time_inseconds":"16"},{"examination_question_id":"51","question_id":"75","question":"<p>L1 S2<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"15.00","time_inseconds":"15"},{"examination_question_id":null,"question_id":null,"question":"<p>L1 S3<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"14","time_inseconds":"14"}]},{"examination_question_id":"32","question_id":"56","question":"<p>S2<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"13.00","time_inseconds":"13","subquestions":[]},{"examination_question_id":"50","question_id":"74","question":"<p>S3<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"12.00","time_inseconds":"12","subquestions":[]}]*Question Array* 
+*Inside question loop* 
+*Question ID *53 
+*Question ID not null::*53 
+*Inside question loop* 
+*Question ID *54 
+*Question ID not null::*54 
+{"examination_question_id":"30","question_id":"54","question":"<p>L1<\/p>","question_type":"linked","level":null,"require_file_upload":"0","point":null,"time_inseconds":0,"subquestions":[{"examination_question_id":"31","question_id":"55","question":"<p>L1 S1<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"16.00","time_inseconds":"16"},{"examination_question_id":"51","question_id":"75","question":"<p>L1 S2<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"15.00","time_inseconds":"15"},{"examination_question_id":null,"question_id":null,"question":"<p>L1 S3<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"14","time_inseconds":"14"}]}*Linked Question condition* 
+*Existing question found* 
+*check exam  null - update existing question element as edit is forced & is not in use by other* 
+*check exam  null - Updated Sub Question::54* 
+*check exam  null - not null examination_question_id::30* 
+[{"examination_question_id":"31","question_id":"55","question":"<p>L1 S1<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"16.00","time_inseconds":"16"},{"examination_question_id":"51","question_id":"75","question":"<p>L1 S2<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"15.00","time_inseconds":"15"},{"examination_question_id":null,"question_id":null,"question":"<p>L1 S3<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"14","time_inseconds":"14"}]*check exam null - Sub Question:: leid::30* 
+*check exam null - Sub Question:: id::55* 
+*check exam null - Saved Sub Question::55* 
+*check exam null - Exam Sub Question::31* 
+*check exam null - Saved Exam Sub Question::31* 
+*check exam null - Sub Question:: id::75* 
+*check exam null - Saved Sub Question::75* 
+*check exam null - Exam Sub Question::51* 
+*check exam null - Saved Exam Sub Question::51* 
+*check exam null - New Sub Question* 
+*check exam null - Saved Sub Question::79* 
+*check exam null - new Exam Sub Question* 
+*check exam null - Saved new Exam Sub Question::55* 
+*Inside question loop* 
+*Question ID *56 
+*Question ID not null::*56 
+*Inside question loop* 
+*Question ID *74 
+*Question ID not null::*74 
+{"examination_id":32,"examination_type":"A","name":"assessment 2","year_group_id":"1","subject_id":"1","lesson_id":"2","created_by":4,"creator_type":"TU-T","start_datetime":null,"end_datetime":null,"total_time":"1:23:0","status":"In Design","created_at":"2024-05-09T07:31:17.000000Z","updated_at":"2024-05-10T09:06:42.000000Z"}*Modify ExamID* 
+[{"examination_question_id":"29","question_id":"53","question":"<p>S1<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"11.00","time_inseconds":"11","subquestions":[]},{"examination_question_id":"30","question_id":"54","question":"<p>L1<\/p>","question_type":"linked","level":null,"require_file_upload":"0","point":null,"time_inseconds":0,"subquestions":[{"examination_question_id":"31","question_id":"55","question":"<p>L1 S1<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"16.00","time_inseconds":"16"},{"examination_question_id":"51","question_id":"75","question":"<p>L1 S2<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"15.00","time_inseconds":"15"},{"examination_question_id":"52","question_id":"76","question":"<p>L1 S3<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"14.00","time_inseconds":"14"},{"examination_question_id":"55","question_id":"79","question":"<p>L1 S3<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"14.00","time_inseconds":"14"}]},{"examination_question_id":"32","question_id":"56","question":"<p>S2<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"13.00","time_inseconds":"13","subquestions":[]},{"examination_question_id":"50","question_id":"74","question":"<p>S3<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"12.00","time_inseconds":"12","subquestions":[]},{"examination_question_id":"53","question_id":"77","question":"<p>L2<\/p>","question_type":"linked","level":null,"require_file_upload":"0","point":null,"time_inseconds":0,"subquestions":[{"examination_question_id":"54","question_id":"78","question":"<p>L2 S1<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"4.00","time_inseconds":"2"}]}]*Question Array* 
+*Inside question loop* 
+*Question ID *53 
+*Question ID not null::*53 
+*Inside question loop* 
+*Question ID *54 
+*Question ID not null::*54 
+{"examination_question_id":"30","question_id":"54","question":"<p>L1<\/p>","question_type":"linked","level":null,"require_file_upload":"0","point":null,"time_inseconds":0,"subquestions":[{"examination_question_id":"31","question_id":"55","question":"<p>L1 S1<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"16.00","time_inseconds":"16"},{"examination_question_id":"51","question_id":"75","question":"<p>L1 S2<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"15.00","time_inseconds":"15"},{"examination_question_id":"52","question_id":"76","question":"<p>L1 S3<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"14.00","time_inseconds":"14"},{"examination_question_id":"55","question_id":"79","question":"<p>L1 S3<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"14.00","time_inseconds":"14"}]}*Linked Question condition* 
+*Existing question found* 
+*check exam  null - update existing question element as edit is forced & is not in use by other* 
+*check exam  null - Updated Sub Question::54* 
+*check exam  null - not null examination_question_id::30* 
+[{"examination_question_id":"31","question_id":"55","question":"<p>L1 S1<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"16.00","time_inseconds":"16"},{"examination_question_id":"51","question_id":"75","question":"<p>L1 S2<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"15.00","time_inseconds":"15"},{"examination_question_id":"52","question_id":"76","question":"<p>L1 S3<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"14.00","time_inseconds":"14"},{"examination_question_id":"55","question_id":"79","question":"<p>L1 S3<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"14.00","time_inseconds":"14"}]*check exam null - Sub Question:: leid::30* 
+*check exam null - Sub Question:: id::55* 
+*check exam null - Saved Sub Question::55* 
+*check exam null - Exam Sub Question::31* 
+*check exam null - Saved Exam Sub Question::31* 
+*check exam null - Sub Question:: id::75* 
+*check exam null - Saved Sub Question::75* 
+*check exam null - Exam Sub Question::51* 
+*check exam null - Saved Exam Sub Question::51* 
+*check exam null - Sub Question:: id::76* 
+*check exam null - Saved Sub Question::76* 
+*check exam null - Exam Sub Question::52* 
+*check exam null - Saved Exam Sub Question::52* 
+*check exam null - Sub Question:: id::79* 
+*check exam null - Saved Sub Question::79* 
+*check exam null - Exam Sub Question::55* 
+*check exam null - Saved Exam Sub Question::55* 
+*Inside question loop* 
+*Question ID *56 
+*Question ID not null::*56 
+*Inside question loop* 
+*Question ID *74 
+*Question ID not null::*74 
+*Inside question loop* 
+*Question ID *77 
+*Question ID not null::*77 
+{"examination_question_id":"53","question_id":"77","question":"<p>L2<\/p>","question_type":"linked","level":null,"require_file_upload":"0","point":null,"time_inseconds":0,"subquestions":[{"examination_question_id":"54","question_id":"78","question":"<p>L2 S1<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"4.00","time_inseconds":"2"}]}*Linked Question condition* 
+*Existing question found* 
+*check exam  null - update existing question element as edit is forced & is not in use by other* 
+*check exam  null - Updated Sub Question::77* 
+*check exam  null - not null examination_question_id::53* 
+[{"examination_question_id":"54","question_id":"78","question":"<p>L2 S1<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"4.00","time_inseconds":"2"}]*check exam null - Sub Question:: leid::53* 
+*check exam null - Sub Question:: id::78* 
+*check exam null - Saved Sub Question::78* 
+*check exam null - Exam Sub Question::54* 
+*check exam null - Saved Exam Sub Question::54* 
+{"examination_id":32,"examination_type":"A","name":"assessment 2","year_group_id":"1","subject_id":"1","lesson_id":"2","created_by":4,"creator_type":"TU-T","start_datetime":null,"end_datetime":null,"total_time":"1:23:0","status":"In Design","created_at":"2024-05-09T07:31:17.000000Z","updated_at":"2024-05-10T09:06:42.000000Z"}*Modify ExamID* 
+[{"examination_question_id":"29","question_id":"53","question":"<p>S1<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"11.00","time_inseconds":"11","subquestions":[]},{"examination_question_id":"30","question_id":"54","question":"<p>L1<\/p>","question_type":"linked","level":null,"require_file_upload":"0","point":null,"time_inseconds":0,"subquestions":[{"examination_question_id":"31","question_id":"55","question":"<p>L1 S1<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"16.00","time_inseconds":"16"},{"examination_question_id":"51","question_id":"75","question":"<p>L1 S2<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"15.00","time_inseconds":"15"},{"examination_question_id":"52","question_id":"76","question":"<p>L1 S3<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"14.00","time_inseconds":"14"},{"examination_question_id":"55","question_id":"79","question":"<p>L1 S3<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"14.00","time_inseconds":"14"}]},{"examination_question_id":"32","question_id":"56","question":"<p>S2<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"13.00","time_inseconds":"13","subquestions":[]},{"examination_question_id":"53","question_id":"77","question":"<p>L2<\/p>","question_type":"linked","level":null,"require_file_upload":"0","point":null,"time_inseconds":0,"subquestions":[{"examination_question_id":"54","question_id":"78","question":"<p>L2 S1<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"4.00","time_inseconds":"2"}]}]*Question Array* 
+*Inside question loop* 
+*Question ID *53 
+*Question ID not null::*53 
+*Inside question loop* 
+*Question ID *54 
+*Question ID not null::*54 
+{"examination_question_id":"30","question_id":"54","question":"<p>L1<\/p>","question_type":"linked","level":null,"require_file_upload":"0","point":null,"time_inseconds":0,"subquestions":[{"examination_question_id":"31","question_id":"55","question":"<p>L1 S1<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"16.00","time_inseconds":"16"},{"examination_question_id":"51","question_id":"75","question":"<p>L1 S2<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"15.00","time_inseconds":"15"},{"examination_question_id":"52","question_id":"76","question":"<p>L1 S3<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"14.00","time_inseconds":"14"},{"examination_question_id":"55","question_id":"79","question":"<p>L1 S3<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"14.00","time_inseconds":"14"}]}*Linked Question condition* 
+*Existing question found* 
+*check exam  null - update existing question element as edit is forced & is not in use by other* 
+*check exam  null - Updated Sub Question::54* 
+*check exam  null - not null examination_question_id::30* 
+[{"examination_question_id":"31","question_id":"55","question":"<p>L1 S1<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"16.00","time_inseconds":"16"},{"examination_question_id":"51","question_id":"75","question":"<p>L1 S2<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"15.00","time_inseconds":"15"},{"examination_question_id":"52","question_id":"76","question":"<p>L1 S3<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"14.00","time_inseconds":"14"},{"examination_question_id":"55","question_id":"79","question":"<p>L1 S3<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"14.00","time_inseconds":"14"}]*check exam null - Sub Question:: leid::30* 
+*check exam null - Sub Question:: id::55* 
+*check exam null - Saved Sub Question::55* 
+*check exam null - Exam Sub Question::31* 
+*check exam null - Saved Exam Sub Question::31* 
+*check exam null - Sub Question:: id::75* 
+*check exam null - Saved Sub Question::75* 
+*check exam null - Exam Sub Question::51* 
+*check exam null - Saved Exam Sub Question::51* 
+*check exam null - Sub Question:: id::76* 
+*check exam null - Saved Sub Question::76* 
+*check exam null - Exam Sub Question::52* 
+*check exam null - Saved Exam Sub Question::52* 
+*check exam null - Sub Question:: id::79* 
+*check exam null - Saved Sub Question::79* 
+*check exam null - Exam Sub Question::55* 
+*check exam null - Saved Exam Sub Question::55* 
+*Inside question loop* 
+*Question ID *56 
+*Question ID not null::*56 
+*Inside question loop* 
+*Question ID *77 
+*Question ID not null::*77 
+{"examination_question_id":"53","question_id":"77","question":"<p>L2<\/p>","question_type":"linked","level":null,"require_file_upload":"0","point":null,"time_inseconds":0,"subquestions":[{"examination_question_id":"54","question_id":"78","question":"<p>L2 S1<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"4.00","time_inseconds":"2"}]}*Linked Question condition* 
+*Existing question found* 
+*check exam  null - update existing question element as edit is forced & is not in use by other* 
+*check exam  null - Updated Sub Question::77* 
+*check exam  null - not null examination_question_id::53* 
+[{"examination_question_id":"54","question_id":"78","question":"<p>L2 S1<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"4.00","time_inseconds":"2"}]*check exam null - Sub Question:: leid::53* 
+*check exam null - Sub Question:: id::78* 
+*check exam null - Saved Sub Question::78* 
+*check exam null - Exam Sub Question::54* 
+*check exam null - Saved Exam Sub Question::54* 
+{"examination_id":32,"examination_type":"A","name":"assessment 2","year_group_id":"1","subject_id":"1","lesson_id":"2","created_by":4,"creator_type":"TU-T","start_datetime":null,"end_datetime":null,"total_time":"1:23:0","status":"In Design","created_at":"2024-05-09T07:31:17.000000Z","updated_at":"2024-05-10T09:06:42.000000Z"}*Modify ExamID* 
+[{"examination_question_id":"29","question_id":"53","question":"<p>S1<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"11.00","time_inseconds":"11","subquestions":[]},{"examination_question_id":"30","question_id":"54","question":"<p>L1<\/p>","question_type":"linked","level":null,"require_file_upload":"0","point":null,"time_inseconds":0,"subquestions":[{"examination_question_id":"31","question_id":"55","question":"<p>L1 S1<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"16.00","time_inseconds":"16"},{"examination_question_id":"51","question_id":"75","question":"<p>L1 S2<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"15.00","time_inseconds":"15"},{"examination_question_id":"52","question_id":"76","question":"<p>L1 S3<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"14.00","time_inseconds":"14"},{"examination_question_id":"55","question_id":"79","question":"<p>L1 S3<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"14.00","time_inseconds":"14"}]},{"examination_question_id":"32","question_id":"56","question":"<p>S2<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"13.00","time_inseconds":"13","subquestions":[]},{"examination_question_id":"53","question_id":"77","question":"<p>L2<\/p>","question_type":"linked","level":null,"require_file_upload":"0","point":null,"time_inseconds":0,"subquestions":[{"examination_question_id":"54","question_id":"78","question":"<p>L2 S1<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"4.00","time_inseconds":"2"}]}]*Question Array* 
+*Inside question loop* 
+*Question ID *53 
+*Question ID not null::*53 
+*Inside question loop* 
+*Question ID *54 
+*Question ID not null::*54 
+{"examination_question_id":"30","question_id":"54","question":"<p>L1<\/p>","question_type":"linked","level":null,"require_file_upload":"0","point":null,"time_inseconds":0,"subquestions":[{"examination_question_id":"31","question_id":"55","question":"<p>L1 S1<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"16.00","time_inseconds":"16"},{"examination_question_id":"51","question_id":"75","question":"<p>L1 S2<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"15.00","time_inseconds":"15"},{"examination_question_id":"52","question_id":"76","question":"<p>L1 S3<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"14.00","time_inseconds":"14"},{"examination_question_id":"55","question_id":"79","question":"<p>L1 S3<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"14.00","time_inseconds":"14"}]}*Linked Question condition* 
+*Existing question found* 
+*check exam  null - update existing question element as edit is forced & is not in use by other* 
+*check exam  null - Updated Sub Question::54* 
+*check exam  null - not null examination_question_id::30* 
+[{"examination_question_id":"31","question_id":"55","question":"<p>L1 S1<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"16.00","time_inseconds":"16"},{"examination_question_id":"51","question_id":"75","question":"<p>L1 S2<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"15.00","time_inseconds":"15"},{"examination_question_id":"52","question_id":"76","question":"<p>L1 S3<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"14.00","time_inseconds":"14"},{"examination_question_id":"55","question_id":"79","question":"<p>L1 S3<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"14.00","time_inseconds":"14"}]*check exam null - Sub Question:: leid::30* 
+*check exam null - Sub Question:: id::55* 
+*check exam null - Saved Sub Question::55* 
+*check exam null - Exam Sub Question::31* 
+*check exam null - Saved Exam Sub Question::31* 
+*check exam null - Sub Question:: id::75* 
+*check exam null - Saved Sub Question::75* 
+*check exam null - Exam Sub Question::51* 
+*check exam null - Saved Exam Sub Question::51* 
+*check exam null - Sub Question:: id::76* 
+*check exam null - Saved Sub Question::76* 
+*check exam null - Exam Sub Question::52* 
+*check exam null - Saved Exam Sub Question::52* 
+*check exam null - Sub Question:: id::79* 
+*check exam null - Saved Sub Question::79* 
+*check exam null - Exam Sub Question::55* 
+*check exam null - Saved Exam Sub Question::55* 
+*Inside question loop* 
+*Question ID *56 
+*Question ID not null::*56 
+*Inside question loop* 
+*Question ID *77 
+*Question ID not null::*77 
+{"examination_question_id":"53","question_id":"77","question":"<p>L2<\/p>","question_type":"linked","level":null,"require_file_upload":"0","point":null,"time_inseconds":0,"subquestions":[{"examination_question_id":"54","question_id":"78","question":"<p>L2 S1<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"4.00","time_inseconds":"2"}]}*Linked Question condition* 
+*Existing question found* 
+*check exam  null - update existing question element as edit is forced & is not in use by other* 
+*check exam  null - Updated Sub Question::77* 
+*check exam  null - not null examination_question_id::53* 
+[{"examination_question_id":"54","question_id":"78","question":"<p>L2 S1<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"4.00","time_inseconds":"2"}]*check exam null - Sub Question:: leid::53* 
+*check exam null - Sub Question:: id::78* 
+*check exam null - Saved Sub Question::78* 
+*check exam null - Exam Sub Question::54* 
+*check exam null - Saved Exam Sub Question::54* 
+{"examination_id":32,"examination_type":"A","name":"assessment 2","year_group_id":"1","subject_id":"1","lesson_id":"2","created_by":4,"creator_type":"TU-T","start_datetime":null,"end_datetime":null,"total_time":"1:23:0","status":"In Design","created_at":"2024-05-09T07:31:17.000000Z","updated_at":"2024-05-10T09:06:42.000000Z"}*Modify ExamID* 
+[{"examination_question_id":"29","question_id":"53","question":"<p>S1<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"11.00","time_inseconds":"11","subquestions":[]},{"examination_question_id":"30","question_id":"54","question":"<p>L1<\/p>","question_type":"linked","level":null,"require_file_upload":"0","point":null,"time_inseconds":0,"subquestions":[{"examination_question_id":"31","question_id":"55","question":"<p>L1 S1<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"16.00","time_inseconds":"16"},{"examination_question_id":"51","question_id":"75","question":"<p>L1 S2<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"15.00","time_inseconds":"15"},{"examination_question_id":"52","question_id":"76","question":"<p>L1 S3<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"14.00","time_inseconds":"14"},{"examination_question_id":"55","question_id":"79","question":"<p>L1 S3<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"14.00","time_inseconds":"14"}]},{"examination_question_id":"32","question_id":"56","question":"<p>S2<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"13.00","time_inseconds":"13","subquestions":[]},{"examination_question_id":"53","question_id":"77","question":"<p>L2<\/p>","question_type":"linked","level":null,"require_file_upload":"0","point":null,"time_inseconds":0,"subquestions":[{"examination_question_id":"54","question_id":"78","question":"<p>L2 S1<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"4.00","time_inseconds":"2"}]}]*Question Array* 
+*Inside question loop* 
+*Question ID *53 
+*Question ID not null::*53 
+*Inside question loop* 
+*Question ID *54 
+*Question ID not null::*54 
+{"examination_question_id":"30","question_id":"54","question":"<p>L1<\/p>","question_type":"linked","level":null,"require_file_upload":"0","point":null,"time_inseconds":0,"subquestions":[{"examination_question_id":"31","question_id":"55","question":"<p>L1 S1<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"16.00","time_inseconds":"16"},{"examination_question_id":"51","question_id":"75","question":"<p>L1 S2<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"15.00","time_inseconds":"15"},{"examination_question_id":"52","question_id":"76","question":"<p>L1 S3<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"14.00","time_inseconds":"14"},{"examination_question_id":"55","question_id":"79","question":"<p>L1 S3<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"14.00","time_inseconds":"14"}]}*Linked Question condition* 
+*Existing question found* 
+*check exam  null - update existing question element as edit is forced & is not in use by other* 
+*check exam  null - Updated Sub Question::54* 
+*check exam  null - not null examination_question_id::30* 
+[{"examination_question_id":"31","question_id":"55","question":"<p>L1 S1<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"16.00","time_inseconds":"16"},{"examination_question_id":"51","question_id":"75","question":"<p>L1 S2<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"15.00","time_inseconds":"15"},{"examination_question_id":"52","question_id":"76","question":"<p>L1 S3<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"14.00","time_inseconds":"14"},{"examination_question_id":"55","question_id":"79","question":"<p>L1 S3<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"14.00","time_inseconds":"14"}]*check exam null - Sub Question:: leid::30* 
+*check exam null - Sub Question:: id::55* 
+*check exam null - Saved Sub Question::55* 
+*check exam null - Exam Sub Question::31* 
+*check exam null - Saved Exam Sub Question::31* 
+*check exam null - Sub Question:: id::75* 
+*check exam null - Saved Sub Question::75* 
+*check exam null - Exam Sub Question::51* 
+*check exam null - Saved Exam Sub Question::51* 
+*check exam null - Sub Question:: id::76* 
+*check exam null - Saved Sub Question::76* 
+*check exam null - Exam Sub Question::52* 
+*check exam null - Saved Exam Sub Question::52* 
+*check exam null - Sub Question:: id::79* 
+*check exam null - Saved Sub Question::79* 
+*check exam null - Exam Sub Question::55* 
+*check exam null - Saved Exam Sub Question::55* 
+*Inside question loop* 
+*Question ID *56 
+*Question ID not null::*56 
+*Inside question loop* 
+*Question ID *77 
+*Question ID not null::*77 
+{"examination_question_id":"53","question_id":"77","question":"<p>L2<\/p>","question_type":"linked","level":null,"require_file_upload":"0","point":null,"time_inseconds":0,"subquestions":[{"examination_question_id":"54","question_id":"78","question":"<p>L2 S1<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"4.00","time_inseconds":"2"}]}*Linked Question condition* 
+*Existing question found* 
+*check exam  null - update existing question element as edit is forced & is not in use by other* 
+*check exam  null - Updated Sub Question::77* 
+*check exam  null - not null examination_question_id::53* 
+[{"examination_question_id":"54","question_id":"78","question":"<p>L2 S1<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"4.00","time_inseconds":"2"}]*check exam null - Sub Question:: leid::53* 
+*check exam null - Sub Question:: id::78* 
+*check exam null - Saved Sub Question::78* 
+*check exam null - Exam Sub Question::54* 
+*check exam null - Saved Exam Sub Question::54* 
+{"examination_id":32,"examination_type":"A","name":"assessment 2","year_group_id":"1","subject_id":"1","lesson_id":"2","created_by":4,"creator_type":"TU-T","start_datetime":null,"end_datetime":null,"total_time":"1:25:0","status":"In Design","created_at":"2024-05-09T07:31:17.000000Z","updated_at":"2024-05-10T10:00:40.000000Z"}*Modify ExamID* 
+[{"examination_question_id":"29","question_id":"53","question":"<p>S1<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"11.00","time_inseconds":"11"},{"examination_question_id":"30","question_id":"54","question":"<p>L1<\/p>","question_type":"linked","require_file_upload":"0","time_inseconds":"0","subquestions":[{"examination_question_id":"31","question_id":"55","question":"<p>L1 S1<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"16.00","time_inseconds":"16"},{"examination_question_id":"51","question_id":"75","question":"<p>L1 S2<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"15.00","time_inseconds":"15"},{"examination_question_id":"52","question_id":"76","question":"<p>L1 S3<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"14.00","time_inseconds":"14"},{"examination_question_id":"55","question_id":"79","question":"<p>L1 S3<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"14.00","time_inseconds":"14"}]},{"examination_question_id":"32","question_id":"56","question":"<p>S2<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"13.00","time_inseconds":"13"}]*Question Array* 
+*Inside question loop* 
+*Question ID *53 
+*Question ID not null::*53 
+*Inside question loop* 
+*Question ID *54 
+*Question ID not null::*54 
+{"examination_question_id":"30","question_id":"54","question":"<p>L1<\/p>","question_type":"linked","require_file_upload":"0","time_inseconds":"0","subquestions":[{"examination_question_id":"31","question_id":"55","question":"<p>L1 S1<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"16.00","time_inseconds":"16"},{"examination_question_id":"51","question_id":"75","question":"<p>L1 S2<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"15.00","time_inseconds":"15"},{"examination_question_id":"52","question_id":"76","question":"<p>L1 S3<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"14.00","time_inseconds":"14"},{"examination_question_id":"55","question_id":"79","question":"<p>L1 S3<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"14.00","time_inseconds":"14"}]}*Linked Question condition* 
+*Existing question found* 
+*check exam  null - update existing question element as edit is forced & is not in use by other* 
+*check exam  null - Updated Sub Question::54* 
+*check exam  null - not null examination_question_id::30* 
+[{"examination_question_id":"31","question_id":"55","question":"<p>L1 S1<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"16.00","time_inseconds":"16"},{"examination_question_id":"51","question_id":"75","question":"<p>L1 S2<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"15.00","time_inseconds":"15"},{"examination_question_id":"52","question_id":"76","question":"<p>L1 S3<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"14.00","time_inseconds":"14"},{"examination_question_id":"55","question_id":"79","question":"<p>L1 S3<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"14.00","time_inseconds":"14"}]*check exam null - Sub Question:: leid::30* 
+*check exam null - Sub Question:: id::55* 
+*check exam null - Saved Sub Question::55* 
+*check exam null - Exam Sub Question::31* 
+*check exam null - Saved Exam Sub Question::31* 
+*check exam null - Sub Question:: id::75* 
+*check exam null - Saved Sub Question::75* 
+*check exam null - Exam Sub Question::51* 
+*check exam null - Saved Exam Sub Question::51* 
+*check exam null - Sub Question:: id::76* 
+*check exam null - Saved Sub Question::76* 
+*check exam null - Exam Sub Question::52* 
+*check exam null - Saved Exam Sub Question::52* 
+*check exam null - Sub Question:: id::79* 
+*check exam null - Saved Sub Question::79* 
+*check exam null - Exam Sub Question::55* 
+*check exam null - Saved Exam Sub Question::55* 
+*Inside question loop* 
+*Question ID *56 
+*Question ID not null::*56 
+{"examination_id":35,"examination_type":"A","name":"Test assesment add","year_group_id":"1","subject_id":"1","lesson_id":"2","created_by":4,"creator_type":"TU-T","start_datetime":null,"end_datetime":null,"total_time":"0:25:0","status":"In Design","created_at":"2024-05-09T12:21:47.000000Z","updated_at":"2024-05-10T05:34:09.000000Z"}*Modify ExamID* 
+[{"examination_question_id":"37","question_id":"61","question":"<p>L1<\/p>","question_type":"linked","require_file_upload":"0","time_inseconds":"0","subquestions":[{"examination_question_id":"38","question_id":"62","question":"<p>L1 S1<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"11.00","time_inseconds":"11"},{"examination_question_id":"39","question_id":"63","question":"<p>L1 S2<\/p>","question_type":"text","level":"low","require_file_upload":"0","point":"4.00","time_inseconds":"4"},{"examination_question_id":"40","question_id":"64","question":"<p>L1 S3 35<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"10.00","time_inseconds":"10"}]},{"question":"<p>Single question 1<\/p>","question_type":"text","level":"low","require_file_upload":"0","point":"5","time_inseconds":"5"}]*Question Array* 
+*Inside question loop* 
+*Question ID *61 
+*Question ID not null::*61 
+{"examination_question_id":"37","question_id":"61","question":"<p>L1<\/p>","question_type":"linked","require_file_upload":"0","time_inseconds":"0","subquestions":[{"examination_question_id":"38","question_id":"62","question":"<p>L1 S1<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"11.00","time_inseconds":"11"},{"examination_question_id":"39","question_id":"63","question":"<p>L1 S2<\/p>","question_type":"text","level":"low","require_file_upload":"0","point":"4.00","time_inseconds":"4"},{"examination_question_id":"40","question_id":"64","question":"<p>L1 S3 35<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"10.00","time_inseconds":"10"}]}*Linked Question condition* 
+*Existing question found* 
+*check exam  null - update existing question element as edit is forced & is not in use by other* 
+*check exam  null - Updated Sub Question::61* 
+*check exam  null - not null examination_question_id::37* 
+[{"examination_question_id":"38","question_id":"62","question":"<p>L1 S1<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"11.00","time_inseconds":"11"},{"examination_question_id":"39","question_id":"63","question":"<p>L1 S2<\/p>","question_type":"text","level":"low","require_file_upload":"0","point":"4.00","time_inseconds":"4"},{"examination_question_id":"40","question_id":"64","question":"<p>L1 S3 35<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"10.00","time_inseconds":"10"}]*check exam null - Sub Question:: leid::37* 
+*check exam null - Sub Question:: id::62* 
+*check exam null - Saved Sub Question::62* 
+*check exam null - Exam Sub Question::38* 
+*check exam null - Saved Exam Sub Question::38* 
+*check exam null - Sub Question:: id::63* 
+*check exam null - Saved Sub Question::63* 
+*check exam null - Exam Sub Question::39* 
+*check exam null - Saved Exam Sub Question::39* 
+*check exam null - Sub Question:: id::64* 
+*check exam null - Saved Sub Question::64* 
+*check exam null - Exam Sub Question::40* 
+*check exam null - Saved Exam Sub Question::40* 
+*Inside question loop* 
+*Question ID * 
+*Question ID null* 
+{"examination_id":35,"examination_type":"A","name":"Test assesment add","year_group_id":"1","subject_id":"1","lesson_id":"2","created_by":4,"creator_type":"TU-T","start_datetime":null,"end_datetime":null,"total_time":"0:30:0","status":"Active","created_at":"2024-05-09T12:21:47.000000Z","updated_at":"2024-05-10T10:26:53.000000Z"}*Modify ExamID* 
+[{"examination_question_id":"37","question_id":"61","question":"<p>L1<\/p>","question_type":"linked","require_file_upload":"0","time_inseconds":"0","subquestions":[{"examination_question_id":"38","question_id":"62","question":"<p>L1 S1<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"11.00","time_inseconds":"11"},{"examination_question_id":"39","question_id":"63","question":"<p>L1 S2<\/p>","question_type":"text","level":"low","require_file_upload":"0","point":"4.00","time_inseconds":"4"},{"examination_question_id":"40","question_id":"64","question":"<p>L1 S3 35<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"10.00","time_inseconds":"10"}]},{"examination_question_id":"58","question_id":"82","question":"<p>Single question 1<\/p>","question_type":"text","level":"low","require_file_upload":"0","point":"5.00","time_inseconds":"5"}]*Question Array* 
+*Inside question loop* 
+*Question ID *61 
+*Question ID not null::*61 
+{"examination_question_id":"37","question_id":"61","question":"<p>L1<\/p>","question_type":"linked","require_file_upload":"0","time_inseconds":"0","subquestions":[{"examination_question_id":"38","question_id":"62","question":"<p>L1 S1<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"11.00","time_inseconds":"11"},{"examination_question_id":"39","question_id":"63","question":"<p>L1 S2<\/p>","question_type":"text","level":"low","require_file_upload":"0","point":"4.00","time_inseconds":"4"},{"examination_question_id":"40","question_id":"64","question":"<p>L1 S3 35<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"10.00","time_inseconds":"10"}]}*Linked Question condition* 
+*Existing question found* 
+*check exam  null - update existing question element as edit is forced & is not in use by other* 
+*check exam  null - Updated Sub Question::61* 
+*check exam  null - not null examination_question_id::37* 
+[{"examination_question_id":"38","question_id":"62","question":"<p>L1 S1<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"11.00","time_inseconds":"11"},{"examination_question_id":"39","question_id":"63","question":"<p>L1 S2<\/p>","question_type":"text","level":"low","require_file_upload":"0","point":"4.00","time_inseconds":"4"},{"examination_question_id":"40","question_id":"64","question":"<p>L1 S3 35<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"10.00","time_inseconds":"10"}]*check exam null - Sub Question:: leid::37* 
+*check exam null - Sub Question:: id::62* 
+*check exam null - Saved Sub Question::62* 
+*check exam null - Exam Sub Question::38* 
+*check exam null - Saved Exam Sub Question::38* 
+*check exam null - Sub Question:: id::63* 
+*check exam null - Saved Sub Question::63* 
+*check exam null - Exam Sub Question::39* 
+*check exam null - Saved Exam Sub Question::39* 
+*check exam null - Sub Question:: id::64* 
+*check exam null - Saved Sub Question::64* 
+*check exam null - Exam Sub Question::40* 
+*check exam null - Saved Exam Sub Question::40* 
+*Inside question loop* 
+*Question ID *82 
+*Question ID not null::*82 
+{"examination_id":32,"examination_type":"A","name":"assessment 2","year_group_id":"1","subject_id":"1","lesson_id":"2","created_by":4,"creator_type":"TU-T","start_datetime":null,"end_datetime":null,"total_time":"1:23:0","status":"Active","created_at":"2024-05-09T07:31:17.000000Z","updated_at":"2024-07-05T11:45:38.000000Z"}*Modify ExamID* 
+[{"examination_question_id":"29","question_id":"53","question":"<p>S1<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"11.00","time_inseconds":"11"},{"examination_question_id":"30","question_id":"54","question":"<p>L1<\/p>","question_type":"linked","require_file_upload":"0","time_inseconds":"0","subquestions":[{"examination_question_id":"31","question_id":"55","question":"<p>L1 S1<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"16.00","time_inseconds":"16"},{"examination_question_id":"51","question_id":"75","question":"<p>L1 S2<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"15.00","time_inseconds":"15"},{"examination_question_id":"52","question_id":"76","question":"<p>L1 S3<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"14.00","time_inseconds":"14"},{"examination_question_id":"55","question_id":"79","question":"<p>L1 S3<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"14.00","time_inseconds":"14"}]},{"examination_question_id":"32","question_id":"56","question":"<p>S2<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"13.00","time_inseconds":"13"}]*Question Array* 
+*Inside question loop* 
+*Question ID *53 
+*Question ID not null::*53 
+*Inside question loop* 
+*Question ID *54 
+*Question ID not null::*54 
+{"examination_question_id":"30","question_id":"54","question":"<p>L1<\/p>","question_type":"linked","require_file_upload":"0","time_inseconds":"0","subquestions":[{"examination_question_id":"31","question_id":"55","question":"<p>L1 S1<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"16.00","time_inseconds":"16"},{"examination_question_id":"51","question_id":"75","question":"<p>L1 S2<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"15.00","time_inseconds":"15"},{"examination_question_id":"52","question_id":"76","question":"<p>L1 S3<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"14.00","time_inseconds":"14"},{"examination_question_id":"55","question_id":"79","question":"<p>L1 S3<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"14.00","time_inseconds":"14"}]}*Linked Question condition* 
+*Existing question found* 
+*check exam  null - update existing question element as edit is forced & is not in use by other* 
+*check exam  null - Updated Sub Question::54* 
+*check exam  null - not null examination_question_id::30* 
+[{"examination_question_id":"31","question_id":"55","question":"<p>L1 S1<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"16.00","time_inseconds":"16"},{"examination_question_id":"51","question_id":"75","question":"<p>L1 S2<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"15.00","time_inseconds":"15"},{"examination_question_id":"52","question_id":"76","question":"<p>L1 S3<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"14.00","time_inseconds":"14"},{"examination_question_id":"55","question_id":"79","question":"<p>L1 S3<\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"14.00","time_inseconds":"14"}]*check exam null - Sub Question:: leid::30* 
+*check exam null - Sub Question:: id::55* 
+*check exam null - Saved Sub Question::55* 
+*check exam null - Exam Sub Question::31* 
+*check exam null - Saved Exam Sub Question::31* 
+*check exam null - Sub Question:: id::75* 
+*check exam null - Saved Sub Question::75* 
+*check exam null - Exam Sub Question::51* 
+*check exam null - Saved Exam Sub Question::51* 
+*check exam null - Sub Question:: id::76* 
+*check exam null - Saved Sub Question::76* 
+*check exam null - Exam Sub Question::52* 
+*check exam null - Saved Exam Sub Question::52* 
+*check exam null - Sub Question:: id::79* 
+*check exam null - Saved Sub Question::79* 
+*check exam null - Exam Sub Question::55* 
+*check exam null - Saved Exam Sub Question::55* 
+*Inside question loop* 
+*Question ID *56 
+*Question ID not null::*56 
+{"examination_type":"A","name":"Test assesment","year_group_id":"1","subject_id":"1","lesson_id":"2","created_by":4,"creator_type":"TU-T","status":"In Design","updated_at":"2024-07-05T12:49:55.000000Z","created_at":"2024-07-05T12:49:55.000000Z","examination_id":38}*ExamID* 
+[{"question_type":"text","level":"low","require_file_upload":"0","point":"2","time_inseconds":"2"},{"question":"<p>sasdasdasd<\/p>","question_type":"text","level":"low","require_file_upload":"0","point":"2","time_inseconds":"2"}]*Question Array* 
+*Inside question loop* 
+*Question ID * 
+*Question ID null* 
+*Error* 
+{"errorInfo":["23000",1048,"Column 'question' cannot be null"]}SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'question' cannot be null (SQL: insert into `questions` (`question_type`, `year_group_id`, `subject_id`, `lesson_id`, `question_category_id`, `question`, `level`, `require_file_upload`, `source`, `created_by`, `creator_type`, `status`, `updated_at`, `created_at`) values (text, 1, 1, 2, ?, ?, low, 0, A, 4, TU-T, Active, 2024-07-05 12:49:55, 2024-07-05 12:49:55)){"examination_id":33,"examination_type":"A","name":"assessment single question only","year_group_id":"1","subject_id":"1","lesson_id":"2","created_by":4,"creator_type":"TU-T","start_datetime":null,"end_datetime":null,"total_time":"0:36:0","status":"Active","created_at":"2024-05-09T07:37:07.000000Z","updated_at":"2024-07-11T06:51:41.000000Z"}*Modify ExamID* 
+[{"examination_question_id":"33","question_id":"57","question":"<p>S1 ed<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"11.00","time_inseconds":"11"},{"examination_question_id":"34","question_id":"58","question":"<p>S2 ed<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"12.00","time_inseconds":"12"},{"examination_question_id":"49","question_id":"73","question":"<p>S3<\/p>","question_type":"text","level":"medium","require_file_upload":"1","point":"13.00","time_inseconds":"13"}]*Question Array* 
+*Inside question loop* 
+*Question ID *57 
+*Question ID not null::*57 
+*Inside question loop* 
+*Question ID *58 
+*Question ID not null::*58 
+*Inside question loop* 
+*Question ID *73 
+*Question ID not null::*73 
+{"examination_type":"A","name":"topic linked assessment","year_group_id":"2","subject_id":"7","lesson_id":"5","topic_id":"8","sub_topic_id":"62","created_by":4,"creator_type":"TU-T","status":"In Design","updated_at":"2024-07-23T09:27:00.000000Z","created_at":"2024-07-23T09:27:00.000000Z","examination_id":39}*ExamID* 
+[{"question":"<p>test question on cell biology cell structure aoq<\/p>","question_type":"text","level":"low","require_file_upload":"0","point":"2","time_inseconds":"2"}]*Question Array* 
+*Inside question loop* 
+*Question ID * 
+*Question ID null* 
+{"examination_id":34,"examination_type":"A","name":"linked only assesment","year_group_id":"1","subject_id":"1","lesson_id":"2","topic_id":"4","sub_topic_id":"13","created_by":4,"creator_type":"TU-T","start_datetime":null,"end_datetime":null,"total_time":"1:19:0","status":"In Design","created_at":"2024-05-09T07:37:56.000000Z","updated_at":"2024-07-23T12:22:14.000000Z"}*Modify ExamID* 
+[{"examination_question_id":"35","question_id":"59","question":"<p>L1 edit<\/p>","question_type":"linked","require_file_upload":"0","time_inseconds":"0","subquestions":[{"examination_question_id":"36","question_id":"60","question":"<p>L1 S1 edit<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"11.00","time_inseconds":"11"},{"examination_question_id":"41","question_id":"65","question":"<p>L1 S2<\/p>","question_type":"text","level":"low","require_file_upload":"0","point":"10.00","time_inseconds":"10"}]},{"examination_question_id":"42","question_id":"66","question":"<p>L2<\/p>","question_type":"linked","require_file_upload":"0","time_inseconds":"0","subquestions":[{"examination_question_id":"43","question_id":"67","question":"<p>L2 S1<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"13.00","time_inseconds":"13"},{"examination_question_id":"44","question_id":"68","question":"<p>L2 S2<\/p>","question_type":"text","level":"low","require_file_upload":"0","point":"14.00","time_inseconds":"14"}]},{"examination_question_id":"45","question_id":"69","question":"<p>L3<\/p>","question_type":"linked","require_file_upload":"0","time_inseconds":"0","subquestions":[{"examination_question_id":"46","question_id":"70","question":"<p>L3 S1<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"15.00","time_inseconds":"15"}]},{"examination_question_id":"47","question_id":"71","question":"<p>L4<\/p>","question_type":"linked","require_file_upload":"0","time_inseconds":"0","subquestions":[{"examination_question_id":"48","question_id":"72","question":"<p>L4 S1<\/p>\r\n\r\n<p><img alt=\"\" src=\"\/public\/uploads\/cms_images\/download%20(2).png\" style=\"width: 100px; height: 100px;\" \/><\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"16.00","time_inseconds":"16"}]}]*Question Array* 
+*Inside question loop* 
+*Question ID *59 
+*Question ID not null::*59 
+{"examination_question_id":"35","question_id":"59","question":"<p>L1 edit<\/p>","question_type":"linked","require_file_upload":"0","time_inseconds":"0","subquestions":[{"examination_question_id":"36","question_id":"60","question":"<p>L1 S1 edit<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"11.00","time_inseconds":"11"},{"examination_question_id":"41","question_id":"65","question":"<p>L1 S2<\/p>","question_type":"text","level":"low","require_file_upload":"0","point":"10.00","time_inseconds":"10"}]}*Linked Question condition* 
+*Existing question found* 
+*check exam  null - update existing question element as edit is forced & is not in use by other* 
+*check exam  null - Updated Sub Question::59* 
+*check exam  null - not null examination_question_id::35* 
+[{"examination_question_id":"36","question_id":"60","question":"<p>L1 S1 edit<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"11.00","time_inseconds":"11"},{"examination_question_id":"41","question_id":"65","question":"<p>L1 S2<\/p>","question_type":"text","level":"low","require_file_upload":"0","point":"10.00","time_inseconds":"10"}]*check exam null - Sub Question:: leid::35* 
+*check exam null - Sub Question:: id::60* 
+*check exam null - Saved Sub Question::60* 
+*check exam null - Exam Sub Question::36* 
+*check exam null - Saved Exam Sub Question::36* 
+*check exam null - Sub Question:: id::65* 
+*check exam null - Saved Sub Question::65* 
+*check exam null - Exam Sub Question::41* 
+*check exam null - Saved Exam Sub Question::41* 
+*Inside question loop* 
+*Question ID *66 
+*Question ID not null::*66 
+{"examination_question_id":"42","question_id":"66","question":"<p>L2<\/p>","question_type":"linked","require_file_upload":"0","time_inseconds":"0","subquestions":[{"examination_question_id":"43","question_id":"67","question":"<p>L2 S1<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"13.00","time_inseconds":"13"},{"examination_question_id":"44","question_id":"68","question":"<p>L2 S2<\/p>","question_type":"text","level":"low","require_file_upload":"0","point":"14.00","time_inseconds":"14"}]}*Linked Question condition* 
+*Existing question found* 
+*check exam  null - update existing question element as edit is forced & is not in use by other* 
+*check exam  null - Updated Sub Question::66* 
+*check exam  null - not null examination_question_id::42* 
+[{"examination_question_id":"43","question_id":"67","question":"<p>L2 S1<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"13.00","time_inseconds":"13"},{"examination_question_id":"44","question_id":"68","question":"<p>L2 S2<\/p>","question_type":"text","level":"low","require_file_upload":"0","point":"14.00","time_inseconds":"14"}]*check exam null - Sub Question:: leid::42* 
+*check exam null - Sub Question:: id::67* 
+*check exam null - Saved Sub Question::67* 
+*check exam null - Exam Sub Question::43* 
+*check exam null - Saved Exam Sub Question::43* 
+*check exam null - Sub Question:: id::68* 
+*check exam null - Saved Sub Question::68* 
+*check exam null - Exam Sub Question::44* 
+*check exam null - Saved Exam Sub Question::44* 
+*Inside question loop* 
+*Question ID *69 
+*Question ID not null::*69 
+{"examination_question_id":"45","question_id":"69","question":"<p>L3<\/p>","question_type":"linked","require_file_upload":"0","time_inseconds":"0","subquestions":[{"examination_question_id":"46","question_id":"70","question":"<p>L3 S1<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"15.00","time_inseconds":"15"}]}*Linked Question condition* 
+*Existing question found* 
+*check exam  null - update existing question element as edit is forced & is not in use by other* 
+*check exam  null - Updated Sub Question::69* 
+*check exam  null - not null examination_question_id::45* 
+[{"examination_question_id":"46","question_id":"70","question":"<p>L3 S1<\/p>","question_type":"text","level":"medium","require_file_upload":"0","point":"15.00","time_inseconds":"15"}]*check exam null - Sub Question:: leid::45* 
+*check exam null - Sub Question:: id::70* 
+*check exam null - Saved Sub Question::70* 
+*check exam null - Exam Sub Question::46* 
+*check exam null - Saved Exam Sub Question::46* 
+*Inside question loop* 
+*Question ID *71 
+*Question ID not null::*71 
+{"examination_question_id":"47","question_id":"71","question":"<p>L4<\/p>","question_type":"linked","require_file_upload":"0","time_inseconds":"0","subquestions":[{"examination_question_id":"48","question_id":"72","question":"<p>L4 S1<\/p>\r\n\r\n<p><img alt=\"\" src=\"\/public\/uploads\/cms_images\/download%20(2).png\" style=\"width: 100px; height: 100px;\" \/><\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"16.00","time_inseconds":"16"}]}*Linked Question condition* 
+*Existing question found* 
+*check exam  null - update existing question element as edit is forced & is not in use by other* 
+*check exam  null - Updated Sub Question::71* 
+*check exam  null - not null examination_question_id::47* 
+[{"examination_question_id":"48","question_id":"72","question":"<p>L4 S1<\/p>\r\n\r\n<p><img alt=\"\" src=\"\/public\/uploads\/cms_images\/download%20(2).png\" style=\"width: 100px; height: 100px;\" \/><\/p>","question_type":"text","level":"low","require_file_upload":"1","point":"16.00","time_inseconds":"16"}]*check exam null - Sub Question:: leid::47* 
+*check exam null - Sub Question:: id::72* 
+*check exam null - Saved Sub Question::72* 
+*check exam null - Exam Sub Question::48* 
+*check exam null - Saved Exam Sub Question::48* 
+{"examination_type":"A","name":"Test assesment","year_group_id":"2","subject_id":"7","lesson_id":"5","created_by":4,"creator_type":"TU-T","status":"In Design","updated_at":"2024-07-24T07:44:56.000000Z","created_at":"2024-07-24T07:44:56.000000Z","examination_id":40}*ExamID* 
+[{"examination_question_id":null,"question_id":null,"question":"<p>question<\/p>","question_type":"text","level":"low","require_file_upload":"0","point":"2","time_inseconds":"2","topic_id":"8","sub_topic_id":"62","tc":"1","ms":"1","ps":"1","at":"1","subquestions":[]}]*Question Array* 
+*Inside question loop* 
+*Question ID * 
+*Question ID null* 
+{"examination_type":"A","name":"Test assesment","year_group_id":"2","subject_id":"7","lesson_id":"5","created_by":4,"creator_type":"TU-T","status":"In Design","updated_at":"2024-07-24T07:48:01.000000Z","created_at":"2024-07-24T07:48:01.000000Z","examination_id":41}*ExamID* 
+[{"examination_question_id":null,"question_id":null,"question":"<p>question<\/p>","question_type":"text","level":"low","require_file_upload":"0","point":"2","time_inseconds":"2","topic_id":"8","sub_topic_id":"62","tc":"1","ms":"1","ps":"1","at":"1","subquestions":[]}]*Question Array* 
+*Inside question loop* 
+*Question ID * 
+*Question ID null* 
+{"examination_type":"A","name":"Test assesment","year_group_id":"2","subject_id":"7","lesson_id":"5","created_by":4,"creator_type":"TU-T","status":"In Design","updated_at":"2024-07-24T08:24:04.000000Z","created_at":"2024-07-24T08:24:04.000000Z","examination_id":42}*ExamID* 
+[{"examination_question_id":null,"question_id":null,"question":"<p>question<\/p>","question_type":"text","level":"low","require_file_upload":"0","point":"2","time_inseconds":"2","topic_id":"8","sub_topic_id":"62","tc":"1","ms":"1","ps":"1","at":"1","subquestions":[]}]*Question Array* 
+*Inside question loop* 
+*Question ID * 
+*Question ID null* 
+{"examination_type":"A","name":"aaaa","year_group_id":"2","subject_id":"7","lesson_id":"5","created_by":4,"creator_type":"TU-T","status":"In Design","updated_at":"2024-07-24T12:32:30.000000Z","created_at":"2024-07-24T12:32:30.000000Z","examination_id":43}*ExamID* 
+[{"examination_question_id":null,"question_id":null,"question":"<p>sq<\/p>","question_type":"text","level":"low","require_file_upload":"0","point":"2","time_inseconds":"2","topic_id":"8","sub_topic_id":"62","tc":"1","ms":"1","ps":"1","at":"1","subquestions":[]},{"examination_question_id":null,"question_id":null,"question":"<p>lq<\/p>","question_type":"linked","level":null,"require_file_upload":"0","point":null,"time_inseconds":0,"topic_id":"8","sub_topic_id":"60","tc":"1","ms":0,"ps":"1","at":0,"subquestions":[{"examination_question_id":null,"question_id":null,"question":"<p>slq1<\/p>","question_type":"text","level":"low","require_file_upload":"0","point":"3","time_inseconds":"3","topic_id":"8","sub_topic_id":"60","tc":"1","ms":0,"ps":"1","at":0}]}]*Question Array* 
+*Inside question loop* 
+*Question ID * 
+*Question ID null* 
+*Inside question loop* 
+*Question ID * 
+*Question ID null* 
+{"examination_question_id":null,"question_id":null,"question":"<p>lq<\/p>","question_type":"linked","level":null,"require_file_upload":"0","point":null,"time_inseconds":0,"topic_id":"8","sub_topic_id":"60","tc":"1","ms":0,"ps":"1","at":0,"subquestions":[{"examination_question_id":null,"question_id":null,"question":"<p>slq1<\/p>","question_type":"text","level":"low","require_file_upload":"0","point":"3","time_inseconds":"3","topic_id":"8","sub_topic_id":"60","tc":"1","ms":0,"ps":"1","at":0}]}*Linked Question condition* 
+{"examination_id":43,"examination_type":"A","name":"aaaa","year_group_id":"2","subject_id":"7","lesson_id":"5","created_by":4,"creator_type":"TU-T","start_datetime":null,"end_datetime":null,"total_time":"0:5:0","status":"In Design","created_at":"2024-07-24T12:32:30.000000Z","updated_at":"2024-07-24T12:32:30.000000Z"}*Modify ExamID* 
+[{"examination_question_id":"66","question_id":"91","question":"<p>sq<\/p>","question_type":"text","level":"low","require_file_upload":"0","point":"2.00","time_inseconds":"2","topic_id":"8","sub_topic_id":"62","tc":"1","ms":"1","ps":"1","at":"1"},{"examination_question_id":"67","question_id":"92","question":"<p>Linked question<\/p>","question_type":"linked","require_file_upload":"0","time_inseconds":"0","topic_id":"8","sub_topic_id":"60","tc":"1","ms":"1","ps":"1","at":"0","subquestions":[{"examination_question_id":"68","question_id":"93","question":"<p>slq1<\/p>","question_type":"text","level":"low","require_file_upload":"0","point":"3.00","time_inseconds":"3","topic_id":"8","sub_topic_id":"60","tc":"1","ms":"1","ps":"1","at":"0"}]}]*Question Array* 
+*Inside question loop* 
+*Question ID *91 
+*Question ID not null::*91 
+*Inside question loop* 
+*Question ID *92 
+*Question ID not null::*92 
+{"examination_question_id":"67","question_id":"92","question":"<p>Linked question<\/p>","question_type":"linked","require_file_upload":"0","time_inseconds":"0","topic_id":"8","sub_topic_id":"60","tc":"1","ms":"1","ps":"1","at":"0","subquestions":[{"examination_question_id":"68","question_id":"93","question":"<p>slq1<\/p>","question_type":"text","level":"low","require_file_upload":"0","point":"3.00","time_inseconds":"3","topic_id":"8","sub_topic_id":"60","tc":"1","ms":"1","ps":"1","at":"0"}]}*Linked Question condition* 
+*Existing question found* 
+*check exam  null - update existing question element as edit is forced & is not in use by other* 
+*check exam  null - Updated Sub Question::92* 
+*check exam  null - not null examination_question_id::67* 
+[{"examination_question_id":"68","question_id":"93","question":"<p>slq1<\/p>","question_type":"text","level":"low","require_file_upload":"0","point":"3.00","time_inseconds":"3","topic_id":"8","sub_topic_id":"60","tc":"1","ms":"1","ps":"1","at":"0"}]*check exam null - Sub Question:: leid::67* 
+*check exam null - Sub Question:: id::93* 
+*check exam null - Saved Sub Question::93* 
+*check exam null - Exam Sub Question::68* 
+*check exam null - Saved Exam Sub Question::68* 
+{"examination_id":43,"examination_type":"A","name":"aaaa","year_group_id":"2","subject_id":"7","lesson_id":"5","created_by":4,"creator_type":"TU-T","start_datetime":null,"end_datetime":null,"total_time":"0:5:0","status":"In Design","created_at":"2024-07-24T12:32:30.000000Z","updated_at":"2024-07-24T12:32:30.000000Z"}*Modify ExamID* 
+[{"examination_question_id":"66","question_id":"91","question":"<p>sq<\/p>","question_type":"text","level":"low","require_file_upload":"0","point":"2.00","time_inseconds":"2","topic_id":"8","sub_topic_id":"62","tc":"1","ms":"1","ps":"1","at":"1"},{"examination_question_id":"67","question_id":"92","question":"<p>Linked question<\/p>","question_type":"linked","require_file_upload":"0","time_inseconds":"0","topic_id":"8","sub_topic_id":"60","tc":"1","ms":"1","ps":"1","at":"1","subquestions":[{"examination_question_id":"68","question_id":"93","question":"<p>slq1<\/p>","question_type":"text","level":"low","require_file_upload":"0","point":"3.00","time_inseconds":"3","topic_id":"8","sub_topic_id":"60","tc":"1","ms":"1","ps":"1","at":"1"}]}]*Question Array* 
+*Inside question loop* 
+*Question ID *91 
+*Question ID not null::*91 
+*Inside question loop* 
+*Question ID *92 
+*Question ID not null::*92 
+{"examination_question_id":"67","question_id":"92","question":"<p>Linked question<\/p>","question_type":"linked","require_file_upload":"0","time_inseconds":"0","topic_id":"8","sub_topic_id":"60","tc":"1","ms":"1","ps":"1","at":"1","subquestions":[{"examination_question_id":"68","question_id":"93","question":"<p>slq1<\/p>","question_type":"text","level":"low","require_file_upload":"0","point":"3.00","time_inseconds":"3","topic_id":"8","sub_topic_id":"60","tc":"1","ms":"1","ps":"1","at":"1"}]}*Linked Question condition* 
+*Existing question found* 
+*check exam  null - update existing question element as edit is forced & is not in use by other* 
+*check exam  null - Updated Sub Question::92* 
+*check exam  null - not null examination_question_id::67* 
+[{"examination_question_id":"68","question_id":"93","question":"<p>slq1<\/p>","question_type":"text","level":"low","require_file_upload":"0","point":"3.00","time_inseconds":"3","topic_id":"8","sub_topic_id":"60","tc":"1","ms":"1","ps":"1","at":"1"}]*check exam null - Sub Question:: leid::67* 
+*check exam null - Sub Question:: id::93* 
+*check exam null - Saved Sub Question::93* 
+*check exam null - Exam Sub Question::68* 
+*check exam null - Saved Exam Sub Question::68* 
+{"examination_type":"A","name":"new hw assessment","year_group_id":"2","subject_id":"7","lesson_id":"5","created_by":4,"creator_type":"TU-T","homework":"1","status":"In Design","updated_at":"2024-08-08T11:39:02.000000Z","created_at":"2024-08-08T11:39:02.000000Z","examination_id":4}*ExamID* 
+[{"question":"<p>Test question?<\/p>","question_type":"text","level":"low","require_file_upload":"0","point":"5","time_inseconds":"5","topic_id":"8","sub_topic_id":"62","tc":"1","ms":"0","ps":"0","at":"0"}]*Question Array* 
+*Inside question loop* 
+*Question ID * 
+*Question ID null* 
+{"examination_id":4,"examination_type":"A","name":"new hw assessment","homework":"0","year_group_id":"2","subject_id":"7","lesson_id":"5","created_by":4,"creator_type":"TU-T","start_datetime":null,"end_datetime":null,"total_time":"0:5:0","status":"In Design","created_at":"2024-08-08T11:39:02.000000Z","updated_at":"2024-08-08T11:42:42.000000Z"}*Modify ExamID* 
+[{"examination_question_id":"9","question_id":"9","question":"<p>Test question?<\/p>","question_type":"text","level":"low","require_file_upload":"0","point":"5.00","time_inseconds":"5","topic_id":"8","sub_topic_id":"62","tc":"1","ms":"0","ps":"0","at":"0"}]*Question Array* 
+*Inside question loop* 
+*Question ID *9 
+*Question ID not null::*9 

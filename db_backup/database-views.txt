@@ -1,0 +1,40 @@
+----Trustee-----
+CREATE VIEW trustees AS SELECT user_profiles.*,users.tenant_id,users.role,users.email,users.phone,users.user_logo,users.status FROM users INNER JOIN user_profiles on user_profiles.user_id=users.user_id where users.user_type='T'  ORDER BY users.user_id;
+
+-----Schools----
+CREATE VIEW schools AS SELECT user_profiles.*,users.tenant_id,users.role,users.email,users.phone,users.user_logo,tenants.subdomain,tenants.country_id,tenants.tenant_subscription_id,tenants.subscription_expiry_date,tenants.theme_color,tenants.logo,tenants.background_image,users.status,(SELECT name FROM `countries` WHERE countries.`country_id`=tenants.country_id) as country_name FROM users INNER JOIN user_profiles on user_profiles.user_id=users.user_id INNER JOIN tenants ON tenants.tenant_id=users.tenant_id where users.user_type='TA'  ORDER BY users.user_id
+
+----subscription plan view---
+CREATE VIEW plans AS SELECT subscription_plans.*,subscription_plan_features.no_teachers_allowed,
+subscription_plan_features.no_students_allowed,
+subscription_plan_features.no_staff_allowed,
+subscription_plan_features.no_yeargroups_allowed,
+subscription_plan_features.no_subjects_allowed,
+subscription_plan_features.no_teacher_assist_allowed FROM subscription_plans INNER JOIN subscription_plan_features on subscription_plan_features.subscription_plan_id=subscription_plans.subscription_plan_id  ORDER BY subscription_plans.subscription_plan_id;
+
+
+----Student-----
+CREATE VIEW students AS SELECT user_profiles.*,users.tenant_id,users.role,users.email,users.phone,users.user_logo,users.status,users.code,(SELECT GROUP_CONCAT(year_groups.name) FROM `user_year_groups`,year_groups WHERE year_groups.year_group_id=user_year_groups.year_group_id and user_year_groups.`user_id`=users.user_id) as year_group_names,(SELECT GROUP_CONCAT(user_year_groups.year_group_id) FROM `user_year_groups` WHERE  user_year_groups.`user_id`=users.user_id) as year_group_ids,(SELECT GROUP_CONCAT(user_subjects.subject_id) FROM `user_subjects` WHERE  user_subjects.`user_id`=users.user_id) as subject_ids,(SELECT GROUP_CONCAT(concat(year_groups.name,'-',subjects.subject_name),' ') FROM `user_subjects`,subjects,year_groups WHERE subjects.subject_id=user_subjects.subject_id and subjects.year_group_id=year_groups.year_group_id and user_subjects.`user_id`=users.user_id) as subject_names FROM users INNER JOIN user_profiles on user_profiles.user_id=users.user_id where users.user_type='TU' and users.role='S'  ORDER BY users.user_id;
+
+
+----Teacher-----
+CREATE VIEW teachers AS SELECT user_profiles.*,users.tenant_id,users.role,users.email,users.phone,users.user_logo,users.status,(SELECT GROUP_CONCAT(year_groups.name) FROM `user_year_groups`,year_groups WHERE year_groups.year_group_id=user_year_groups.year_group_id and user_year_groups.`user_id`=users.user_id) as year_group_names,(SELECT GROUP_CONCAT(user_year_groups.year_group_id) FROM `user_year_groups` WHERE  user_year_groups.`user_id`=users.user_id) as year_group_ids,(SELECT GROUP_CONCAT(user_subjects.subject_id) FROM `user_subjects` WHERE  user_subjects.`user_id`=users.user_id) as subject_ids,(SELECT GROUP_CONCAT(concat(year_groups.name,'-',subjects.subject_name),' ') FROM `user_subjects`,subjects,year_groups WHERE subjects.subject_id=user_subjects.subject_id and subjects.year_group_id=year_groups.year_group_id and user_subjects.`user_id`=users.user_id) as subject_names FROM users INNER JOIN user_profiles on user_profiles.user_id=users.user_id where users.user_type='TU' and users.role='T'  ORDER BY users.user_id;
+
+
+ALTER TABLE `departments` ADD `status` VARCHAR(20) NOT NULL DEFAULT 'Active' AFTER `department_name`;
+
+----Teacher Assistant-----
+CREATE VIEW teacher_assistants AS SELECT user_profiles.*,users.tenant_id,users.role,users.email,users.phone,users.user_logo,users.status,(SELECT GROUP_CONCAT(year_groups.name) FROM `user_year_groups`,year_groups WHERE year_groups.year_group_id=user_year_groups.year_group_id and user_year_groups.`user_id`=users.user_id) as year_group_names,(SELECT GROUP_CONCAT(user_year_groups.year_group_id) FROM `user_year_groups` WHERE  user_year_groups.`user_id`=users.user_id) as year_group_ids,(SELECT GROUP_CONCAT(user_subjects.subject_id) FROM `user_subjects` WHERE  user_subjects.`user_id`=users.user_id) as subject_ids,(SELECT GROUP_CONCAT(concat(year_groups.name,'-',subjects.subject_name),' ') FROM `user_subjects`,subjects,year_groups WHERE subjects.subject_id=user_subjects.subject_id and subjects.year_group_id=year_groups.year_group_id and user_subjects.`user_id`=users.user_id) as subject_names FROM users INNER JOIN user_profiles on user_profiles.user_id=users.user_id where users.user_type='TU' and users.role='TA'  ORDER BY users.user_id;
+
+----Employee-----
+CREATE VIEW employees AS SELECT user_profiles.*,users.tenant_id,users.role,users.email,users.phone,users.user_logo,users.status,(SELECT department_name FROM `departments` WHERE departments.`department_id`=user_profiles.department_id) as department_name FROM users INNER JOIN user_profiles on user_profiles.user_id=users.user_id where users.user_type='TU' and users.role='OU'  ORDER BY users.user_id;
+
+----Parent-----
+CREATE VIEW parents AS SELECT user_profiles.*,users.tenant_id,users.role,users.email,users.code,users.phone,users.user_logo,users.status FROM users INNER JOIN user_profiles on user_profiles.user_id=users.user_id where users.user_type='P' and users.role='P'  ORDER BY users.user_id;
+
+
+---changes in master db---
+ALTER TABLE `user_profiles` ADD `customer_name` VARCHAR(255) NULL AFTER `parent_email`, ADD `company_address` VARCHAR(255) NULL AFTER `customer_name`, ADD `contact_persons` TEXT NULL AFTER `company_address`, ADD `customer_service_contact` TEXT NULL AFTER `contact_persons`, ADD `technical_poc` TEXT NULL AFTER `customer_service_contact`, ADD `billing_contact` TEXT NULL AFTER `technical_poc`;
+
+ALTER TABLE `user_profiles` ADD `salutation` VARCHAR(50) NULL AFTER `user_id`;
+

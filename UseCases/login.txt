@@ -1,0 +1,43 @@
+**Use Case Name:** Login
+
+**Actors:** 
+- Portal admin, Portal admin users, Tenant admin, tenant admin users, Parents
+- System
+
+
+**Description:** 
+This use case describes the process of a user logging into the system, which supports various types of users including Portal admin, Portal admin users, Tenant admin, tenant admin users, Parents.
+
+**Preconditions:** 
+- The system is operational.
+- The user account exists in the system.
+- The user has a valid username and password.
+
+**Trigger:** 
+The user initiates the login process by accessing the login page or attempting to access a restricted resource.
+
+**Main Flow:**
+1. The user navigates to the login page.
+2. The system presents the login form requesting the user's credentials.
+3. The user enters their username and password.
+4. The system validates the user's credentials.
+5. If the credentials are valid:
+   - The system logs the user into the appropriate role-based interface (e.g., Portal admin/ Portal admin user/ Tenant admin/ tenant admin user/ Parent dashbard).
+   - The system records the login event in the system logs.
+   - The user gains access to the functionalities associated with their role.
+6. If the credentials are invalid:
+   - The system displays an error message indicating the invalid credentials.
+   - The user is prompted to re-enter their username and password.
+
+**Alternative Flows:**
+1. If the user forgets their password:
+   - The user clicks on the "Forgot Password" link.
+   - The system prompts the user to enter their email address.
+   - The system sends a password reset link to the user's email address.
+   - The user follows the link to reset their password.
+   - The system updates the user's password in the system database.
+
+**Postconditions:** 
+- The user is logged into the system and has access to the functionalities associated with their role.
+- The system maintains a record of the user's login activity.
+- In case of forgotten passwords, the user can regain access through the provided recovery mechanisms.
